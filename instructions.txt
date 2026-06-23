@@ -1,0 +1,27 @@
+Instructions to Run
+
+To get the project running immediately, open your terminal and run these commands
+
+1. Clone the repository and navigate into the folder
+
+git clone httpsgithub.comshashank9585ParkCommand.git
+
+cd ParkCommand
+
+
+
+2. Install all required Python dependencies
+
+pip install -r requirements.txt
+
+
+
+3. Train the Machine Learning model (Generates the .pkl file)
+
+python train_model.py
+
+
+
+4. Launch the Streamlit application
+
+streamlit run app.py
